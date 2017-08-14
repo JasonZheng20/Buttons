@@ -9,30 +9,38 @@
     <!-- <script src="default.js" defer></script> -->
   </head>
   <body>
-    <div class = "gridContainer">
-      <div class = "row">
-        <div class = "tile hamburger" id = "title">
-          <div class = "row titleLettering larger">
-            <span>F</span>
-            <span>L</span>
-            <span>I</span>
-            <span>P</span>
+    <section id = "landingPage">
+      <div class = "gridContainer">
+        <div class = "row">
+          <div class = "tile hamburger" id = "title">
+            <div class = "row titleLettering larger">
+              <span>F</span>
+              <span>L</span>
+              <span>I</span>
+              <span>P</span>
+            </div>
+            <div class = "row titleLettering smaller">
+              <span>W</span>
+              <span>O</span>
+              <span>R</span>
+              <span>D</span>
+            </div>
           </div>
-          <div class = "row titleLettering smaller">
-            <span>W</span>
-            <span>O</span>
-            <span>R</span>
-            <span>D</span>
+          <div class = "tile" id = "play">
+            <div class = "triangle"></div>
           </div>
         </div>
-        <div class = "tile" id = "play">
-          <div class = "triangle"></div>
+        <div class = "row">
+          <div class = "tile" id = "scores"></div>
+          <div class = "tile" id = "plug"></div>
         </div>
       </div>
-      <div class = "row">
-        <div class = "tile" id = "scores"></div>
-        <div class = "tile" id = "plug"></div>
+    </section>
+    <section class = "inactive" id = "game">
+      <div class = "gridContainer">
       </div>
-    </div>
+    </section>
+    <section class = "inactive" id = "results">
+    </section>
   </body>
 </html>

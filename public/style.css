@@ -7,6 +7,10 @@ body {
   font-family: 'Libre Franklin', sans-serif;
 }
 
+.inactive {
+  display: none !important;
+}
+
 /*Styles concerning box layouts-----------------------------------------------*/
 .gridContainer {
   display: flex;
@@ -29,6 +33,7 @@ body {
 
 .titleLettering {
   width: 250px;
+  /*make these responsive*/
   height: 125px;
   background-color: #49452f;
   text-shadow: 1px 1px 1.5px rgba(255,255,255,0.5);
@@ -41,8 +46,8 @@ body {
 /*Styles concerning tile format-----------------------------------------------*/
 
 .tile {
-  width: 200px;
-  height: 200px;
+  width: 15vw;
+  height: 15vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,23 +59,19 @@ body {
 }
 
 .larger {
-  font-size: 70px;
+  font-size: 5vw;
 }
 
 .smaller {
-  font-size: 60px;
+  font-size: 4.5vw;
 }
 
 /*Shape Styles----------------------------------------------------------------*/
 
 .triangle {
-  width: 170px;
-  height: 170px;
+  width: 14vw;
+  height: 14vw;
   background-image: url('playButton.png');
   background-size: cover;
-	/*width: 0;
-	height: 0;
-	border-top: 50px solid transparent;
-	border-left: 100px solid #49452f;
-	border-bottom: 50px solid transparent;*/
+  /*make these responsive with bootstrap*/
 }
